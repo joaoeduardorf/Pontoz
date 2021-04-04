@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Pontoz.Usuarios.AppService
+namespace Pontoz.Usuarios.API
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace Pontoz.Usuarios.AppService
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Pontoz.Usuarios.AppService", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Pontoz.Usuarios.API", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace Pontoz.Usuarios.AppService
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Pontoz.Usuarios.AppService v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Pontoz.Usuarios.API v1"));
             }
 
             app.UseHttpsRedirection();

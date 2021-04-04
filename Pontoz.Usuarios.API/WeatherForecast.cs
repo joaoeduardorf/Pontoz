@@ -1,6 +1,6 @@
 using System;
 
-namespace Pontoz.Usuarios.AppService
+namespace Pontoz.Usuarios.API
 {
     public class WeatherForecast
     {

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Pontoz.Usuarios.AppService.Controllers
+namespace Pontoz.Usuarios.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
