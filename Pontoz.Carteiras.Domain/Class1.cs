@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Pontoz.Carteiras.Domain
+﻿namespace Pontoz.Carteiras.Domain
 {
     public class Class1
     {
